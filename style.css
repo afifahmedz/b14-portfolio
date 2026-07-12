@@ -1,6 +1,32 @@
-
-nav{
+*{
+    margin: 0px;
+     font-family: "Open Sans", sans-serif;
+}
+header{
     background-color: #fff8f3;
+}
+.text{
+    font-size: 48px;
+}
+.Text-r{
+    color: #FD6E0A;
+}
+/* common button */
+.button{
+    background-color: #FD6E0A;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: #fff8f3;
+    font-weight: 600;
+}
+.button:hover{
+    background-color: #ff7e22;
+}
+nav{
+    max-width: 1200px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
 }
@@ -8,4 +34,9 @@ ul{
     display: flex;
     list-style-type: none;
     gap: 20px;
+    justify-content:space-between;
+    align-items: center;
 }
+nav ul li a {
+    text-decoration: none;
+ }
