@@ -1,0 +1,11 @@
+
+nav{
+    background-color: #fff8f3;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
