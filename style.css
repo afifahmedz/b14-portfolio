@@ -2,6 +2,7 @@
     margin: 0px;
      font-family: "Open Sans", sans-serif;
 }
+
 header{
     background-color: #fff8f3;
 }
@@ -14,19 +15,27 @@ header{
 /* common button */
 .button{
     background-color: #FD6E0A;
+    color: #ffffff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    gap: 10px;
+    /* background-color: #FD6E0A;
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
     font-size: 20px;
     color: #fff8f3;
-    font-weight: 600;
+    font-weight: 600; */
 }
 .button:hover{
     background-color: #ff7e22;
 }
 nav{
-    max-width: 1200px;
-    margin: auto;
+
     display: flex;
     justify-content: space-between;
 }
@@ -40,3 +49,37 @@ ul{
 nav ul li a {
     text-decoration: none;
  }
+ .section-parent{
+    display: flex;
+    justify-content: space-between;
+ }
+ .margin{
+        max-width: 1200px;
+        margin: auto;
+}
+.text-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-p-1{
+    font-weight: 500;
+    font-size: larger;
+}
+.hero-btn-contact{
+    background-color: #fff8f3;
+    color: #ff7e22;
+    padding: 12px 24px;
+    border: solid;
+
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    gap: 10px;
+    /* padding: 20px;
+    color: #FD6E0A; */
+
+}
