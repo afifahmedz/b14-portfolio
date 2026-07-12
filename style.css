@@ -87,3 +87,21 @@ nav ul li a {
     background-color: #fff8f3;
     
 }
+.what-i-do{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parent-of-icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{ 
+    height: 250px;
+    background-color: #fff4e8;
+    gap: 10px;
+    
+
+
+}
